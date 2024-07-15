@@ -1,0 +1,110 @@
+<main>
+    <div class="container__app" style="display: none;">
+        <div class="creazione">
+            <span class="h1__medium" style="font-style: italic">Sito in costruzione</span>
+            <div>
+                <span style="cursor: pointer; text-decoration:underline">by octimal</span>
+            </div>
+        </div>
+        <img class="menu__logo" src="../../../assets/immagini/home/logo.png">
+    </div>
+</main>
+<main>
+    <div class="home">
+        <div>
+            <svg class="menu-button" (click)="this.toggleMenu()" width="100" height="100" xmlns="http://www.w3.org/2000/svg" id="grape-cluster">
+                    <!-- Primo pallino -->
+                    <circle cx="60" cy="10" r="6" fill="#3b332c" id="grape-1" />
+                
+                    <!-- Secondo pallino -->
+                    <circle cx="70" cy="30" r="6" fill="#3b332c" id="grape-2" />
+                
+                    <!-- Terzo pallino -->
+                    <circle cx="80" cy="10" r="6" fill="#3b332c" id="grape-3" />
+                
+            </svg>
+            <nav class="menu">
+                <div class="menu__container">
+                    <!-- <img class="menu__logo" src="../../../assets/immagini/home/logo.png"> -->
+
+                    <div class="menu__inside">
+                        <div>
+                            <span style="margin-right:5px">01</span><span class="h1__medium" style="font-style: italic">Chi siamo</span>
+                        </div>
+                        <div>
+                            <span style="margin-right:5px">02</span><span routerLink="/cesura" class="h1__medium" style="font-style: italic">Il nostro vino</span>
+                        </div>
+                        <div>
+                            <span style="margin-right:5px">03</span><span class="h1__medium" style="font-style: italic">Le nostre terre</span>
+                        </div>
+                        <div>
+                            <span style="margin-right:5px">04</span><span class="h1__medium" style="font-style: italic">La nostra storia</span>
+                        </div>
+                        <div>
+                            <span style="margin-right:5px">05</span><span class="h1__medium" style="font-style: italic">Contatti</span>
+                        </div>
+                    </div>
+                    <div class="menu__footer">
+                        <div>
+                            <a style="cursor: pointer;">Privacy</a>
+                        </div>
+                        <div>
+                            <a style="cursor: pointer;">Ragione sociale</a>
+                        </div>
+                        <div>
+                            <a style="cursor: pointer;">Cookie</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="descrizione__home">
+            <img src="../../../assets/immagini/home/logo_2.png">
+            <h3 style="letter-spacing: 8px;">VITIVINICOLA</h3>
+            <h1 class="h1__big">CHIZZOLA</h1>
+            <h3 style="letter-spacing: 8px;">FRATELLI</h3>
+        </div>
+        <div class="video-container">
+            <video id="background-video" loop muted autoplay oncanplay="this.play()" onloadedmetadata="this.muted = true">
+                <source src="assets/immagini/home/video__home__uno.mp4" type="video/mp4">
+            </video>
+            <div class="gray-mask"></div>
+        </div>
+    </div>
+    <div class="who">
+        <div class="who__background">
+        </div>
+        <div class="who__content">
+            <div class="disegno__uno__container">
+                <img class="disegno__uno" src="../../../assets/immagini/home/disegno__uno.png">
+            </div>
+            <div class="who__content__interno">
+                <div style="z-index: 2; position: sticky;">
+                    <div class="mini__container">
+                        <p>Vino rotondo, intenso e avvolgente.
+                        </p>
+                        <p>
+                            Prima di essere unito affina in acciaio e in legno di rovere. Fruttato e con lievi sentori floreali.
+                        </p>
+                    </div>
+                    <div class="mini__container">
+                        <span style="font-style: italic">"Abbiamo riscoperto la bellezza di questo lavoro e l'amore per il vino, una passione che risale al bisnonno Guido. Oggi coltiviamo gli stessi terreni, dando vita ad un vino che racconta di un tempo passato e di un nuovo inizio."</span>
+                    </div>
+                </div>
+                <img src="../../../assets/immagini/home/logo.png">
+            </div>
+        </div>
+    </div>
+    <div class="what">
+
+    </div>
+    <div class="where">
+
+    </div>
+    <div class="when">
+
+    </div>
+    <div class="footer">
+
+    </div>
+</main>

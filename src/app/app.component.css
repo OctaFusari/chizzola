@@ -1,0 +1,88 @@
+:host {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.creazione {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.container__app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.menu__logo {
+    width: 30cm !important;
+    margin-top: 3cm;
+    margin-left: -20px;
+    transform: rotate(-1deg);
+    z-index: 1;
+    opacity: .4;
+}
+
+.logo {
+    background-color: var(--text);
+    z-index: 900;
+    position: sticky;
+    height: fit-content;
+    color: var(--background) !important;
+}
+
+.footer__interno {
+    display: flex;
+    /* or display: inline-flex; */
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
+}
+
+.footer__interno section div {
+    margin: 1vw;
+}
+
+.footer__interno section {
+    padding: 6vw 6vw 2vw 6vw;
+}
+
+.chizzola__logo_footer {
+    text-align: center;
+}
+
+.chizzola__logo_footer h1 {
+    margin-left: 16px;
+}
+
+.chizzola__logo_footer img {
+    width: 10vw;
+}
+
+.octimal__logo__footer {
+    text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+    .chizzola__logo_footer h1 {
+        font-size: 2rem !important;
+    }
+    .chizzola__logo_footer h4 {
+        font-size: .8rem !important;
+    }
+    .footer__interno {
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: "fi__2""fi__1";
+    }
+}

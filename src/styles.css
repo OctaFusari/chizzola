@@ -1,0 +1,136 @@
+@font-face {
+    font-family: "AbrilFatface-Regular";
+    src: local("AbrilFatface-Regular"), url(./assets/fonts/AbrilFatface-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: local("Montserrat"), url(./assets/fonts/Montserrat-BlackItalic.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "HindSiliguri-Light";
+    src: local("HindSiliguri-Light"), url(./assets/fonts/Hind_Siliguri/HindSiliguri-Light.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "HindSiliguri-Regular";
+    src: local("HindSiliguri-Regular"), url(./assets/fonts/Hind_Siliguri/HindSiliguri-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "NotoSans-ExtraLight";
+    src: local("NotoSans-ExtraLight"), url(./assets/fonts/Noto_Sans/NotoSans-ExtraLight.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "NotoSans-Light";
+    src: local("NotoSans-Light"), url(./assets/fonts/Noto_Sans/NotoSans-Light.ttf) format("truetype");
+}
+
+body,
+html {
+    background: var(--background);
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+* {
+    transition-duration: .3s;
+}
+
+.octitxt1 {
+    cursor: pointer;
+    fill: #e8e8e31a;
+}
+
+.octitxt1:hover {
+    cursor: pointer;
+    fill: #e8e8e349;
+}
+
+:root {
+    --background: #E8E8E3;
+    --text: #55534C;
+    --text_trasp: #55534ce1;
+    --background_trasp: #ffefd8be;
+    --card: #fdf7ee;
+    --container: #fde8c9;
+    --allert: #fbab00;
+    --error: #fb0000;
+    --error-trasparent: #fb000087;
+    --approved: #00c42a;
+    --octimal: #007E6D;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "HindSiliguri-Light" !important;
+    color: var(--text);
+}
+
+* {
+    margin: 0;
+    font-family: "NotoSans-Light";
+    color: var(--text);
+}
+
+span {
+    color: var(--text_trasp);
+    font-style: italic;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+}
+
+.text__yellow {
+    color: var(--text-minor);
+}
+
+.text__semiyellow {
+    color: var(--text-minor-tras);
+}
+
+.text__white {
+    color: var(--text);
+}
+
+.h1__big {
+    font-size: 4rem;
+    letter-spacing: 22px;
+}
+
+.h1__medium {
+    font-size: 3rem;
+    letter-spacing: 22px;
+}
+
+.h1__little {
+    font-size: 2rem;
+}
+
+.cartellino {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--text-minor);
+    border-radius: 1.6rem;
+    width: fit-content;
+}
+
+.cartellino h3 {
+    color: var(--text-white);
+    margin: 10px 16px 10px 16px;
+}
+
+.mini__container {
+    margin: .4cm;
+}
+
+.logo * {
+    color: var(--background) !important;
+}
